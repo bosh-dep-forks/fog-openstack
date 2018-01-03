@@ -1,6 +1,6 @@
 module Fog
   module Openstack
-    VERSION = "0.1.23-microversions"
+    VERSION = "0.1.24-microversions"
 
     def self.included(base)
       if RUBY_VERSION < "2"
